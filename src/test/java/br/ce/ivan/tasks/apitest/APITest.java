@@ -36,7 +36,7 @@ public class APITest {
 		.when()
 			.post("/todo")
 		.then()
-		    .log().all()
+		    //.log().all()
 			.statusCode(201)
 		;
 	}
